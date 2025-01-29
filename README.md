@@ -32,6 +32,19 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+### 4️⃣ Using Docker (Alternative to Virtual Env)
+If you want to use Docker to containerize the project, follow these steps:
+1. Build the Docker Image:
+```bash
+docker build -t blockchain-simulation .
+```
+2. Run the Docker Container:
+ ```bash
+ docker run blockchain-simulation
+
+   ```
+
+
 ## ⚡ Running the Blockchain
 
 ### 1️⃣ Start the Simulation
