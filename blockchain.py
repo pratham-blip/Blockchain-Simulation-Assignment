@@ -68,5 +68,5 @@ class Blockchain:
             print("No blocks to tamper with.")
             return
 
-        self.chain[1].transactions = [{"from": "Hacker", "to": "Evil", "amount": 999}]
+        self.chain[1].transactions = [{"from": "Hacker", "to": "Hacker1", "amount": 999}]
         print("Block tampered!")
